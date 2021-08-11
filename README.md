@@ -16,3 +16,14 @@ You can install the released version of Demo from GitHub using:
 devtools::install_github("bryandmartin/Demo")
 ```
 
+To view vignettes, run the following code:
+
+``` r
+devtools::install_github("bryandmartin/Demo", build_vignette = TRUE, build_opts = c())
+library(Demo)
+# Use this to view the vignette in the Demo HTML help
+help(package = "Demo", help_type = "html")
+# Use this to view the vignette as an isolated HTML file
+utils::browseVignettes(package = "Demo")
+```
+
