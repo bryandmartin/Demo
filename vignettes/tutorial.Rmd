@@ -1,0 +1,20 @@
+---
+title: "Project 3: Demo Tutorial"
+author: "Bryan D Martin"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Demo Tutorial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(Demo)
+```
